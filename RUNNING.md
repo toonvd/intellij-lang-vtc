@@ -14,8 +14,8 @@ This is the quickest way to test the plugin during development:
 
 1. **Clone the repository**:
    ```
-   git clone https://github.com/your-username/vts-syntaxhighlighter.git
-   cd vts-syntaxhighlighter
+   git clone https://github.com/your-username/intellij-lang-vtc.git
+   cd intellij-lang-vtc
    ```
 
 2. **Run the plugin in development mode**:
@@ -39,8 +39,8 @@ If you want to install the plugin in your regular IntelliJ IDEA instance:
 
 1. **Clone the repository**:
    ```
-   git clone https://github.com/your-username/vts-syntaxhighlighter.git
-   cd vts-syntaxhighlighter
+   git clone https://github.com/your-username/intellij-lang-vtc.git
+   cd intellij-lang-vtc
    ```
 
 2. **Build the plugin**:
@@ -48,7 +48,7 @@ If you want to install the plugin in your regular IntelliJ IDEA instance:
    ./gradlew buildPlugin
    ```
    
-   This will create a plugin distribution zip file in `build/distributions/vts-syntaxhighlighter-1.0.0.zip`
+   This will create a plugin distribution zip file in `build/distributions/intellij-lang-vtc-1.0.0.zip`
 
 3. **Install the plugin in IntelliJ IDEA**:
    - Open IntelliJ IDEA

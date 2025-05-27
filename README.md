@@ -20,7 +20,7 @@ An IntelliJ IDEA plugin that provides syntax highlighting for Varnish Test Case 
 
 ### Manual Installation
 
-1. Download the latest release from the [Releases](https://github.com/your-username/vts-syntaxhighlighter/releases) page
+1. Download the latest release from the [Releases](https://github.com/your-username/intellij-lang-vtc/releases) page
 2. Open IntelliJ IDEA
 3. Go to Settings/Preferences > Plugins
 4. Click on the gear icon and select "Install Plugin from Disk..."
@@ -31,7 +31,7 @@ An IntelliJ IDEA plugin that provides syntax highlighting for Varnish Test Case 
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/vts-syntaxhighlighter.git
+   git clone https://github.com/your-username/intellij-lang-vtc.git
    ```
 
 2. Make sure you have JDK 11 or later installed:
@@ -41,11 +41,11 @@ An IntelliJ IDEA plugin that provides syntax highlighting for Varnish Test Case 
 
 3. Build the plugin:
    ```
-   cd vts-syntaxhighlighter
+   cd intellij-lang-vtc
    ./gradlew buildPlugin
    ```
 
-4. The plugin will be built in `build/distributions/vts-syntaxhighlighter-1.0.0.zip`
+4. The plugin will be built in `build/distributions/intellij-lang-vtc-1.0.0.zip`
 
 ## Running in Development Mode
 
@@ -107,7 +107,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Reporting Issues
 
-If you encounter any issues not covered here, please report them on the [GitHub Issues](https://github.com/your-username/vts-syntaxhighlighter/issues) page.
+If you encounter any issues not covered here, please report them on the [GitHub Issues](https://github.com/your-username/intellij-lang-vtc/issues) page.
 
 ## Contributing
 

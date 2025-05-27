@@ -1,4 +1,4 @@
-package com.varnish.intellij.vtc;
+package com.varnish.vtc;
 
 import com.intellij.openapi.fileTypes.LanguageFileType;
 import org.jetbrains.annotations.NotNull;

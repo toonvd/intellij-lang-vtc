@@ -3,7 +3,7 @@ plugins {
     id 'org.jetbrains.intellij' version '1.17.0'
 }
 
-group 'com.varnish.intellij'
+group 'com.varnish'
 version '1.0.0'
 
 repositories {
@@ -22,7 +22,7 @@ intellij {
 }
 
 runIde {
-    systemProperty "idea.log.debug.categories", "com.varnish.intellij.vtc"
+    systemProperty "idea.log.debug.categories", "com.varnish.vtc"
 }
 
 patchPluginXml {

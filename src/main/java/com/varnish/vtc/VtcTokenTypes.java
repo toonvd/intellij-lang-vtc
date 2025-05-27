@@ -1,4 +1,4 @@
-package com.varnish.intellij.vtc;
+package com.varnish.vtc;
 
 import com.intellij.psi.TokenType;
 import com.intellij.psi.tree.IElementType;

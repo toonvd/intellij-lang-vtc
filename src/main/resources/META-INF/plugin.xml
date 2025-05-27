@@ -1,5 +1,5 @@
 <idea-plugin>
-    <id>com.varnish.intellij.vtc</id>
+    <id>com.varnish.vtc</id>
     <name>Varnish Test Case</name>
     <vendor email="toon_vd@live.com" url="https://toonvd.github.io">Toon Van Dooren</vendor>
 
@@ -11,11 +11,11 @@
     <depends>com.intellij.modules.lang</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <fileType name="Varnish Test Case" implementationClass="com.varnish.intellij.vtc.VtcFileType"
+        <fileType name="Varnish Test Case" implementationClass="com.varnish.vtc.VtcFileType"
                   fieldName="INSTANCE" language="VTC" extensions="vtc"/>
         <lang.syntaxHighlighterFactory language="VTC"
-                                       implementationClass="com.varnish.intellij.vtc.VtcSyntaxHighlighterFactory"/>
-        <spellchecker.bundledDictionaryProvider implementation="com.varnish.intellij.vtc.VtcBundledDictionaryProvider"/>
+                                       implementationClass="com.varnish.vtc.VtcSyntaxHighlighterFactory"/>
+        <spellchecker.bundledDictionaryProvider implementation="com.varnish.vtc.VtcBundledDictionaryProvider"/>
         <spellchecker.support language="VTC"
                               implementationClass="com.intellij.spellchecker.tokenizer.SpellcheckingStrategy"/>
     </extensions>

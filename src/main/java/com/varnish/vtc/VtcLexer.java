@@ -1,4 +1,4 @@
-package com.varnish.intellij.vtc;
+package com.varnish.vtc;
 
 import com.intellij.lexer.LexerBase;
 import com.intellij.psi.tree.IElementType;
