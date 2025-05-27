@@ -1,0 +1,29 @@
+# This is a sample Varnish Test Case file
+# It demonstrates the syntax highlighting capabilities of the plugin
+
+varnishtest "Sample VTC file for syntax highlighting"
+
+# Define a server
+server s1 {
+    rxreq
+    txresp -status 200 -body "Hello, World!"
+} -start
+
+# Define a client
+client c1 {
+    txreq -url "/"
+    rxresp
+    expect resp.status == 200
+    expect resp.body == "Hello, World!"
+} -start
+
+# Define a Varnish cache
+varnish v1 -vcl {
+    backend default {
+        .host = "${s1_addr}";
+        .port = "${s1_port}";
+    }
+} -start
+
+# Run the test
+client c1 -run
